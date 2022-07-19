@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="profil.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Despre mine</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Studii</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Lucrari</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Salut,  <strong>Daniel Stoianovici</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="pro.jpg" alt="O poza cu mine" class="intro__img">
+        </section>
+        
+        
+        
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Lucruri ce ma definesc</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Bun comunicator</h3>
+                    <p>Diploma de participare de la Persuasion Elite by Andy Szekely, cateva carti citete, unele cunostinte de NLP basic.
+                        Printre cartile citete se enumera: Psihologia Persuasiunii, Pre-suasiune, Made to Stick .  </p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Curiozitate</h3>
+                    <p>Se manifesta preponderent de asta am si enumerat-o. Imi place sa experimentez diverse, am activat intr-o varietate de domenii, liceu cu profil umanist, facultate cu profit tehnic</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Orientat spre detalii</h3>
+                    <p>Trasatura aceasta reiese din tiparul meu comportamental preponderent, melancolic, mereu am tendinta sa fiu prea perfectionist cu mine si cu cei din jur.</p>
+                </div> 
+            </div> 
+            
+            <a href="#work" class="btn">portfolio</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Cine sunt</h2>
+           <p class="section__subtitle section__subtitle--about">Pasionat de front-end</p>
+           
+           <div class="about-me__body">
+               <p>Sunt student in anul 4 la  Facultatea de Electronică, Telecomunicaţii şi Tehnologia Informaţiei Gh.Asachi </p>
+               <p>Un hobby care ma defineste ca persona este cititul, imi place foarte mult sa citesc si sa intelg cum functioneaza lucrurile. Perfectionist fiind mi-am dorit sa citesc mai repede iar cu ajutorul platformei speedread.net am reusit sa-mi cresc viteza de citire la peste 1500 de cuvinte pe minut.
+               </p>
+           </div>
+           
+           <img src="profi2.PNG" alt="eu cu ochelari" class="about-me__img">
+        </section>
+        
+        
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Proiecte</h2>
+            <p class="section__subtitle section__subtitle--work">Cateva mini-proiecte</p>
+            
+            <div class="portfolio">
+                
+                <a href="/Portofolio/Keeps/index.html" class="portfolio__item">
+                    <img src="img/i1.png" alt="" class="portfolio__img">
+                </a>
+                
+                
+                <a href="/Portofolio/NFT/nft.html" class="portfolio__item">
+                    <img src="img/i2.png" alt="" class="portfolio__img">
+                </a>
+                
+                
+                <a href="/Portofolio/card/index.html" class="portfolio__item">
+                    <img src="img/i3.png" alt="" class="portfolio__img">
+                </a>
+                
+                
+                <a href="/Portofolio/expense-tracker/index.html" class="portfolio__item">
+                    <img src="img/i4.png" alt="" class="portfolio__img">
+                </a>
+                
+          
+                
+               
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            
+            <a href="mailto:stoianovicidaniel99@gmail.com" class="footer__link">Stoianovicidaniel99@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
